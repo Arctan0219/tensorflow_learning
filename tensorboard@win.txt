@@ -1,0 +1,7 @@
+将graph写入文件时，路径字符串前加r
+例如tf.summary.FileWriter(r"C:\Users\Arctan\tf\logs", sess.graph)
+
+
+因为只在tensorflow环境下安装了tensorflow，所以使用tensorboard前需要先激活tensorflow环境
+然后输入tensorboard --logdir=<地址>
+例如tensorboard --logdir=C:\Users\Arctan\tf\logs
